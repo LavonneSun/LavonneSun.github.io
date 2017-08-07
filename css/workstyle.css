@@ -1,0 +1,174 @@
+
+
+@font-face{
+	src:url('./data/coolvetica rg.ttf');
+	src:url('./data/BowlbyOneSC-Regular.ttf');
+	src:url('./data/ArchivoBlack-Regular.ttf');
+
+} 
+
+header{
+	position: fixed;
+	margin-top: 30px;
+	position: relative;
+	width: 100vw;
+	text-align: right;
+	/*background-color: yellow;*/
+	text-decoration: none;
+	
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	margin-right: 15px;
+}	
+
+#minilogoa{	
+	font-family: "coolvetica", sans-serif;
+	font-size: 70pt;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-right:50px;
+	text-decoration: none;
+}
+
+
+#minilogob{
+	font-family: "coolvetica", sans-serif ;
+	font-size: 30pt;
+/*	margin-top: 15px;*/
+	margin-top: 0;
+	padding-right:100px;
+	text-decoration: none;
+}
+
+#workcontainer{
+	width: 75vw;
+	position: relative;
+	/*background-color: blue;*/
+}
+
+/*.sub-container{
+	width: 100vw;
+}*/
+
+/*div a img .images{
+	width: 45%;
+}*/
+
+#pic1{
+
+
+
+}
+
+.box{
+
+	width: 300px;
+	height: 300px;
+	/*width:30%;
+	height:30%;*/
+	margin-left: 5%;
+	margin-right:5%;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	display: inline-block;
+/*	background: yellow;*/
+	cursor: pointer;
+
+}
+
+.sub-container{
+	/*这里让图片会均匀分配*/
+	display:flex;
+	width:100%;
+
+}
+
+
+
+nav{
+	position:fixed;
+	right:22%;
+	top:260px;
+	width: 30px;
+/*	background-color: blue;*/
+}
+
+nav ul li{
+	display: block;
+	margin-bottom: 50px;
+	font-size: 20pt;
+	font-family: "coolvetica", sans-serif;
+	color:black;
+	text-align: right;
+	right:20%;
+
+}
+
+nav ul li a{
+	color:black;
+	text-decoration: none;
+	text-align: right;
+	right:0;
+}
+
+nav ul li a:hover{
+	color:red;
+	font-size:  40px    
+}
+
+#pic1{
+	/*添加背景图片*/
+    background:url("../data/IMG_5172.JPG");
+    background-size: 100%;
+    background-position: center;
+	transition: all 0.5s linear;
+
+}
+
+
+#pic1:hover{
+	transform:scale(1.2); 
+
+}
+
+
+
+.box{
+	/*添加背景图片*/
+    background:url("../data/IMG_5172.JPG");
+    background-size: 100%;
+    background-position: center;
+	transition: all 0.5s linear;
+
+}
+
+.box:hover{
+	transform:scale(1.2); 
+
+}
+
+
+
+
+.title{
+	font-family: "coolvetica", sans-serif;
+	font-size: 20pt;
+	/*margin-bottom: 0px;
+	margin-top: 0px;*/
+	padding-left:70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

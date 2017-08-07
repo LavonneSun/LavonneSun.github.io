@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton' );
+/*@font-face{
+	font-family: coolvetica;
+	src:url(data/coolvetica rg.ttf);*/
+
+
+
+/*video#tfvideo{
+width:200px;
+height:100%;
+}*/
+
+#flashpic{
+   height:500px;
+   width:500px;
+   background:url("../data/IMG_5172.JPG")
+   z-index:100;
+}
+
+
+video#bgvid{
+	position: fixed;
+	top:50%;
+	left: 50%;
+	min-width:100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+	background-size: cover;
+}
+
+.logo{
+	position: absolute;
+	right:0; bottom:10%;
+	margin-right: 100px;
+	color:white;
+	width: 50%;
+}
+
+
+
+h1{
+	font-family: "coolvetica", sans-serif;
+	font-size: 100pt;
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+
+h2{
+	font-family: "coolvetica", sans-serif ;
+	text-align: right;
+	font-size: 40pt;
+	margin-top: 15px;
+	/*position: relative;	*/  /*刚才当我没有加上这个comment时我就改不了font大小*/
+                               /* 所以postion是一个非常tricky的问题，有时候他的影响比
+                                 想象的还要多！	   */                
+}
+
+
+
+
+.nav1{
+	margin-top:3%;
+	width:100%;
+	height: :40px;
+	position:fixed;
+	text-align: right;
+	z-index: 5;
+	/*text-align: right;*/
+}
+
+.nav1 .nav_ul ul li{
+	font-family: "coolvetica", sans-serif;
+	font-size: 20pt;
+	text-align: right;
+
+	
+}
+
+.nav1 .nav_ul ul li a {
+transition:all 0.3s ease-in-out; 
+text-decoration: none;
+
+}
+
+.nav1 .nav_ul ul li a:hover{   /* 这里hover绝对不能有空格，否则就没有效果了*/
+	
+	color:white;
+	font-size:  40px      /*这里是设置字体的描边宽度的，设置字体大小的：等于说你点击的时候字就会变大 */
+}
+
+
+li{
+	display: inline;
+}
+
+.spacea{
+	margin-right: 20%;
+}
+
+.spaceb{
+	margin-right: 110px;
+}
+
+.nav1 .nav_ul ul li a{
+	color:white;
+	font-family: "coolvetica", sans-serif;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+.columns{
+
+background-color: red;
+height: 100px;
+width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
